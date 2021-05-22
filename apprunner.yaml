@@ -1,0 +1,9 @@
+version: 1.0
+runtime: nodejs12
+build:
+  commands:    
+    build:
+      - npm install --production                                  
+run:
+  runtime-version: 12.18.4
+  command: npm start
