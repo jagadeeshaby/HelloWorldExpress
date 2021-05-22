@@ -3,7 +3,7 @@ runtime: nodejs12
 build:
   commands:    
     build:
-      - npm install --production                                  
+      - npm install                                   
 run:
   runtime-version: 12.18.4
   command: npm start

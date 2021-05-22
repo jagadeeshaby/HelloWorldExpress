@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "rm -rf public/* && mkdir public && cd client && npm run build && cp -R build/* ../public/ && cd .. && node ./bin/www"
+    "start": "rm -rf public/* && mkdir public && cd client && npm run build && cp -R build/* ../public/ && cd .. && npm install && node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
